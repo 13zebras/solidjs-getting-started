@@ -1,0 +1,70 @@
+.App {
+  padding: 1rem;
+}
+
+.addbook {
+  /* border: 1px solid #fda; */
+  padding-left: 30px;
+  margin-top: 35px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #d9d6d4;
+  border-radius: 3px;
+  padding: 3px;
+  min-width: 200px;
+}
+
+button {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 4px 20px;
+  /* display: inline; */
+}
+
+button.addBookBtn {
+  margin-top: 10px;
+  max-width: 130px;
+  background-color: #140;
+  border: 1px solid #260;
+}
+
+button.showFormBtn {
+  margin-top: 40px;
+  max-width: 200px;
+  background-color: #504;
+  border-color: #806;
+}
+
+li.searchResult button.addSearchBtn {
+  background-color: #601;
+  border-color: transparent;
+  border: none;
+  padding: 2px 10px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+li.searchResult {
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 4px;
+}
